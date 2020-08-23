@@ -327,31 +327,67 @@ ul#nav li.current a { color: #F06000; }
 
 .Python {
   	width: 90%;
+  	-moz-animation: Python 2s ease;
   	-webkit-animation: Python 2s ease;
 }
 .R {
   	width: 85%;
+  	-moz-animation: R 2s ease;
   	-webkit-animation: R 2s ease;
 }
 .C {
   	width: 50%;
+  	-moz-animation: C 2s ease;
   	-webkit-animation: C 2s ease;
 }
 .SQL {
   	width: 50%;
+  	-moz-animation: SQL 2s ease;
   	-webkit-animation: SQL 2s ease;
 }
 .MATLAB {
   	width: 30%;
+  	-moz-animation: MATLAB 2s ease;
   	-webkit-animation: MATLAB 2s ease;
 }
 .AWS {
   	width: 60%;
+  	-moz-animation: AWS 2s ease;
   	-webkit-animation: AWS 2s ease;
 }
 .Excel {
   	width: 90%;
+  	-moz-animation: Excel 2s ease;
   	-webkit-animation: Excel 2s ease;
+}
+
+@-moz-keyframes Python {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
+}
+@-moz-keyframes R {
+  0%   { width: 0px;  }
+  100% { width: 85%;  }
+}
+@-moz-keyframes C {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
+@-moz-keyframes SQL {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
+@-moz-keyframes MATLAB {
+  0%   { width: 0px;  }
+  100% { width: 30%;  }
+}
+@-moz-keyframes AWS {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+@-moz-keyframes Excel {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
 }
 
 @-webkit-keyframes Python {
