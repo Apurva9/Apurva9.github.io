@@ -336,17 +336,17 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: R 2s ease;
 }
 .C {
-  	width: 50%;
+  	width: 70%;
   	-moz-animation: C 2s ease;
   	-webkit-animation: C 2s ease;
 }
 .SQL {
-  	width: 50%;
+  	width: 60%;
   	-moz-animation: SQL 2s ease;
   	-webkit-animation: SQL 2s ease;
 }
 .MATLAB {
-  	width: 30%;
+  	width: 50%;
   	-moz-animation: MATLAB 2s ease;
   	-webkit-animation: MATLAB 2s ease;
 }
@@ -371,15 +371,15 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes C {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 70%;  }
 }
 @-moz-keyframes SQL {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 60%;  }
 }
 @-moz-keyframes MATLAB {
   0%   { width: 0px;  }
-  100% { width: 30%;  }
+  100% { width: 50%;  }
 }
 @-moz-keyframes AWS {
   0%   { width: 0px;  }
