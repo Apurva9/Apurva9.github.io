@@ -512,9 +512,10 @@ ul#nav li.current a { color: #F06000; }
    margin-top: -15px;
 }
 .portfolio-item .item-wrap img {
-   vertical-align: middle;
-   height: auto;
-   width: auto;
+   height: 200px; /* Set a fixed height */
+   width: 300px; /* Set a fixed width */
+   object-fit: cover; /* Ensures the aspect ratio is maintained while filling the space */
+   vertical-align: top; /* Aligns images to the top */
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
